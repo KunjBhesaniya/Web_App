@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins";
+}
+.logo{
+    position: absolute;
+    text-transform: uppercase;
+}
+.new{
+    font-size: 40px;
+    color: white;
+    margin-left: 654px;
+    margin-top: 157px;
+}
+.text{
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    margin-left: 654px;
+    margin-top: 10px;
+}
+.vector1{
+    position:absolute;
+    width: 25%;
+    margin : 50px 100px;
+}
+.vector_1{
+    position: absolute;
+    margin-left: 50%;
+    opacity: 0.2;
+    width: 40%;
+}
+.vector{
+    position: absolute;
+    width: 35%;
+    opacity: 0.4;
+}
+.project{
+    margin: 80px 654px;
+    position: absolute;
+    font-family: "Poppins";
+    
+    padding: 15px 22px;
+    width: 500px;
+    height: 45px;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: transparent;
+}
+::placeholder{
+    color: #C9C9C9;
+    opacity: 0.5;
+    letter-spacing: 0.4px;
+}
+input:focus{
+    outline: none;
+}
+input, select, textarea{
+    color: #FFFFFF;
+}
+.org{
+    margin: 145px 654px;
+    position: absolute;
+    font-family: "Poppins";
+    padding: 15px 22px;
+    width: 500px;
+    height: 45px;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.btn{
+    margin: 230px 1000px;
+    position: absolute;
+    padding: 12px 60px;
+    border-radius: 10px;
+    background-color: white;
+    color: #03256C;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+button:focus{
+    outline: none;
+}
+.back_btn{
+    margin: 230px 850px;
+    position: absolute;
+    padding: 12px 60px;
+    border-radius: 10px;
+    background-color:transparent;
+    color:white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
