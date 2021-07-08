@@ -75,7 +75,7 @@ input, select, textarea{
     background-color: transparent;
 }
 .btn{
-    margin: 230px 1000px;
+    margin: 270px 1000px;
     position: absolute;
     padding: 12px 60px;
     border-radius: 10px;
@@ -89,8 +89,11 @@ input, select, textarea{
 button:focus{
     outline: none;
 }
+.btn:hover{
+    background-color: #C9C9C9;
+}
 .back_btn{
-    margin: 230px 850px;
+    margin: 270px 850px;
     position: absolute;
     padding: 12px 60px;
     border-radius: 10px;
@@ -119,20 +122,23 @@ button:focus{
     width: 0.1px;
     height: 0.1px;
     position: absolute;
-    margin: 80px 654px;
+    margin: 0px 654px;
 }
 .file-input label{
     display: block;
-    position: relative;
+    position: absolute;
     width: 200px;
     height: 50px;
     border-radius: 25px;
-    background: white
-    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    font-weight: bold;
+    color: #03256C;
+    font-weight: 600;
     cursor: pointer;
+    margin: 135px 800px;
+  }
+  .file-input label:hover{
+      background-color: #e7e7e7;
   }
