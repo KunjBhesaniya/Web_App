@@ -15,11 +15,14 @@
         <img src="Vector-1.png" class="vector_1">
         <img src="illustration.png" class="vector1">
     </div>
-    <h2 class="new">New Project</h2>
-    <p class="text">Add your New Project Here !</p>
+    <h2 class="new"></h2>
+    <p class="text"></p>
     <form>
-        <input type="text" name="Project" placeholder="Project Name" class="project">
-        <input type="text" name="Organization" placeholder="Organization Name" class="org">
+        <div class="file-input">
+            <div class="attach"></div>
+            <input type="file" id="file" class="file">
+            <label for="file">Add Attachment</label>
+        </div>
     </form>
     <button class="btn" onclick="myFunction()">Next</button>
     <button class="back_btn" onclick="back()">Back</button>

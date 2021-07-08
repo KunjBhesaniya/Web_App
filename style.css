@@ -84,6 +84,7 @@ input, select, textarea{
     border: none;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 button:focus{
     outline: none;
@@ -98,4 +99,40 @@ button:focus{
     border: none;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
+.attach{
+    margin: 80px 654px;
+    position: absolute;
+    font-family: "Poppins";
+    text-align: center;
+    padding: 80px 22px;
+    width: 500px;
+    height: 45px;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.file{
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    margin: 80px 654px;
+}
+.file-input label{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background: white
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
